@@ -1,0 +1,274 @@
+html,body {
+	height: 100%;
+}
+
+#btnLogout{
+	display: none;
+}
+
+#accessview{
+	display: none;
+}
+
+#welcomeview{
+	display: none;
+}
+
+
+.cm-nav{
+	background-color: #fff!important;
+	font-size: 18px;
+	height: 80px;
+}
+
+#navbarSupportedContent > ul > li.nav-item.active a{
+	color: #fd8224;
+}
+
+#navbarSupportedContent > ul > li.nav-item a:hover{
+	color: #fd8224;
+	text-decoration: underline;
+}
+
+.title-movie-link:hover{
+	cursor: pointer;
+	color: #fd8224!important;
+	text-decoration: underline!important;
+
+}
+
+.btn-primary{
+	background-color: #fd8224;
+    border-color: #fd8224;
+}
+
+.btn-primary:hover{
+	color:#fd8224;
+	background-color: #fff;
+    border-color: #fd8224;
+}
+
+#listmovies, #listmoviesfav{
+	background-color: #fff;
+}
+
+.navbar-collapse{
+	padding: 16px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+#cm-formsearch{
+	float: right;
+	padding-bottom: 20px;
+}
+
+.container{
+	margin-top:130px;
+}
+
+#cont-movie p>span{
+	font-weight: 500;
+    font-size: 14px;
+}
+
+#cont-movie p{
+	font-weight: 600;
+    font-size: 18px;
+}
+
+#cont-movie{
+	padding-top:40px;
+	background-color: #fff;
+}
+
+#welcomeview{
+	padding:40px;
+	background-color: #fff;
+}
+
+#welcomeview h3 {
+    color: #fd8123;
+    margin-bottom: 20px;
+}
+
+#welcomeview p{
+    font-size:16px;
+}
+
+
+
+
+/*Cards*/
+.description {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+ }
+ 
+ .card-header, .metadata {
+	background: none;
+	padding: 0;
+	position: relative;
+	border-style: none;
+ }
+ 
+ .metadata {
+	font-size: 16px;
+	
+ }
+
+ .metadata i{
+	float: left;
+ }
+ .metadata p {
+	margin-top: 0;
+	margin-left: 10px;
+ }
+ .metadata i {
+	color: #ff9d00;
+	margin-top: 5px;
+	margin-left: 1px;
+ }
+ 
+ .card-img {
+	-webkit-clip-path: inset(10% 0 20% 0);
+	 clip-path: inset(10% 0 20% 0);
+	 margin-top: -15%;
+ }
+ 
+ .card-body {
+	position: relative;
+	margin-top: -30%;
+	color: #9FA7A9;
+	
+ }
+ .card-title {
+	font-weight: 600;
+	color: #414345;
+ }
+ .card-text {
+	margin-top: 8px;
+	font-weight: 600;
+	line-height: 30px;
+ }
+ 
+ .card, .fav-movie {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+ }
+ .card:hover,  .fav-movie:hover{
+	   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+	}   
+ 
+ .card {
+	border-radius: 8pt;
+	border-style: none;
+	overflow: hidden;
+	transform: scale(0.9);
+ }
+ 
+ .fav-movie {
+	background-color: #fff;
+	position: absolute;
+	top: -46px;
+	right: 24px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	color: #fd8224;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 13px;
+	
+ }
+
+ .fav-movie i{
+	color: #fd8224;
+ }
+
+ .fav-movie:hover, .fav-movie:disabled, .fav-movie:active, .fav-movie:focus {
+	   background-color: #fff;
+	   color: #fd8224;
+	}
+
+ 
+
+/*End Cards*/
+
+
+
+
+
+
+
+body.vanila-project {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.vanila-project-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.vanila-project-page .brand img {
+	width: 100%;
+}
+
+.vanila-project-page .card-wrapper {
+	width: 400px;
+}
+
+.vanila-project-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.vanila-project-page .card.fat {
+	padding: 10px;
+}
+
+.vanila-project-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.vanila-project-page .form-control {
+	border-width: 2.3px;
+}
+
+.vanila-project-page .form-group label {
+	width: 100%;
+}
+
+.vanila-project-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.vanila-project-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.vanila-project-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.vanila-project-page .card.fat {
+		padding: 0;
+	}
+
+	.vanila-project-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
